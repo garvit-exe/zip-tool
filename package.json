@@ -1,0 +1,22 @@
+{
+  "name": "zip-tool",
+  "version": "0.0.2",
+  "description": "A CLI tool to zip and unzip files",
+  "main": "./index.js",
+  "bin": {
+    "zip-tool": "./index.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "commander": "^12.1.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "tar": "^7.4.0",
+    "unzipper": "^0.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "garvit budhiraja",
+  "license": "MIT"
+}
