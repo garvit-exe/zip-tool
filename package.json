@@ -1,8 +1,11 @@
 {
-  "name": "zip-tool",
+  "name": "@garvit-budhiraja/zip-tool",
   "version": "1.0.0",
   "description": "A CLI tool to zip and unzip files",
   "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "bin": {
     "zip-tool": "./index.js"
   },
@@ -13,9 +16,6 @@
     "path": "^0.12.7",
     "tar": "^7.4.0",
     "unzipper": "^0.12.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "garvit budhiraja",
   "license": "MIT"
